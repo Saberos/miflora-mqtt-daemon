@@ -17,5 +17,9 @@ setup(
 		"colorama==0.3.9",
 		"Unidecode==0.4.21",
 		"setuptools"
+    ],
+    include_package_data=True,
+    package_data= [
+    	"config.ini"
     ]
 )
